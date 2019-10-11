@@ -21,9 +21,14 @@ To test the application run the following commands. (This project has included j
 
         java -jar pet-service-1.0.jar server local.yml
 
+* To hit the Health check service
+
+	    http://localhost:8081/healthcheck
+
 * To hit the Pet service application.
 
-	http://localhost:8080/pets
+	    http://localhost:8080/pets
+	
 
 ### Create Pets
 - Endpoint: `http://localhost:8080/pets`
